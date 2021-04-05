@@ -1,0 +1,27 @@
+.header {
+  color: rgb(184, 2, 129);
+  font-family: "courier new";
+  font-size: 75px;
+  text-align: center;
+}
+.headshot {
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+html {
+  background-color: rgb(189, 179, 247);
+}
+.head2 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.paragraph {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.list {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
