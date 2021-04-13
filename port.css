@@ -1,19 +1,25 @@
 .header {
-  color: rgb(184, 2, 129);
-  font-family: "courier new";
-  font-size: 75px;
+  color: #160110;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 80px;
   text-align: center;
 }
 .headshot {
-  height: 500px;
+  height: 500px; /*targets the height of the image*/
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: auto;
+  border-radius: 50px; /*Curves the edges to a radius set by the number before the px for pixel*/
 }
 html {
-  background-color: rgb(189, 179, 247);
+  background-color: rgb(
+    124,
+    123,
+    128
+  ); /*Targets the background color for the whole page*/
 }
-.head2 {
+.head3 {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
@@ -21,7 +27,33 @@ html {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
-.list {
+ul {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
+}
+ol {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.intro {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  text-decoration: underline;
+}
+.links {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+li {
+  text-align: center;
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: green;
 }
