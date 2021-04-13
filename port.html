@@ -4,33 +4,89 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="./port.css" />
-    <title>Cody Parker</title>
+    <title><strong>Cody Parker</strong></title>
   </head>
   <body>
     <header>
+      <!--container for the topics in the page include h1-->
       <h1 class="header">Cody Parker</h1>
     </header>
-    <img class="headshot" src="./images/CodyP.jpg" alt="Cody Parker headshot" />
-    <h2 class="head2">My name is Cody Parker!</h2>
-    <p class="paragraph">
-      I am currently a student of software developement located in Atlanta,
-      Georgia.
-    </p>
-    <p>As a former actor and professional skateboarder my interests are:</p>
-    <ul>
-      <li>Building websites that immediately catch the eye.</li>
-      <li>Working with a dedicated group to solve problems</li>
-      <li>Constanly learning and evolving my craft.</li>
-    </ul>
-    <p>
-      I still continue to skateboard daily and still very much enjoy acting and
-      continue to audition for new exciting roles.
-    </p>
-    <p>My top 3 favorite movies are:</p>
-    <ol>
-      <li>One Flew Over the Cuckoo's Nest</li>
-      <li>Phantasm</li>
-      <li>True Romance<!--  --></li>
-    </ol>
+    <main>
+      <!--main content container include headshot, intro, article, etc...-->
+      <img
+        class="headshot"
+        src="./images/CodyP.jpg"
+        alt="Cody Parker headshot"
+      />
+      <h2 class="intro"><strong>INTRO</strong></h2>
+      <!--intro section with using semantic bold-->
+      <h3 class="head3">My name is Cody Parker!</h3>
+      <p class="paragraph">
+        <!--Using classes so I can target html elements easily-->
+        I am currently a student of software developement located in Atlanta,
+        Georgia.
+      </p>
+      <h2 class="intro">About Me</h2>
+      <p class="paragraph">
+        My interest in software development began in my teens when I just
+        happened to be in the offices of the company I worked for and got to see
+        how the company created their website. I was amazed at just how much one
+        could accomplish with the right knowledge of computers. I was a
+        professional skateboarder at the time and the team had little input into
+        how the site would ultimately turn out, but the developer asked each of
+        us a few questions about our interest and musical tastes. When the
+        developer had finished we were blown away with what he had done. So a
+        few of the reasons software development drew my interest are:
+      </p>
+      <article>
+        <!--Using article tags to keep a more organized and easier to follow layout-->
+        <ul>
+          <!--Tag used for list with no particular order-->
+          <strong>
+            <li>Building websites that immediately catch the eye.</li>
+            <li>Working with a dedicated group to solve problems</li>
+            <li>Constanly learning and evolving my craft.</li>
+          </strong>
+        </ul>
+      </article>
+      <p class="paragraph">
+        I still continue to skateboard daily, but skateboarding eventually led
+        me into a career as a stuntman, which in turn led me to acting. From the
+        first time I set foot on a movie set I loved every aspect of creating a
+        film. I had always been a movie fanatic, although it was not until I
+        actually got to be a part of the process first hand that I found my love
+        for acting. I continue to audition for new roles and I get the
+        occasional call to be set on fire, wreck a car, or thrown off a
+        building, but nowadays I have my sights set on learning software
+        development.
+      </p>
+      <p class="paragraph">My top 3 favorite movies are:</p>
+      <article>
+        <ol>
+          <!--Tag with a particular hierarchy of importance-->
+          <strong>
+            <li>One Flew Over the Cuckoo's Nest</li>
+            <li>Phantasm</li>
+            <li>True Romance</li>
+          </strong>
+        </ol>
+      </article>
+    </main>
+
+    <footer>
+      <h2 class="intro"><strong>Contact Me</strong></h2>
+      <p class="links">
+        <a href="https://www.linkedin.com/in/devsinthedetails/"
+          ><strong>LinkedIn</strong></a
+        >
+      </p>
+      <p class="links">
+        <a href="https://github.com/DevsintheDetails"
+          ><strong>Github</strong></a
+        >
+      </p>
+      <p class="links"><strong>parker.cody112@gmail.com</strong></p>
+    </footer>
+    <!--Include contact info-->
   </body>
 </html>
