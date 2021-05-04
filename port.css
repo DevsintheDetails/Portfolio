@@ -1,10 +1,11 @@
 .header {
-  color: #160110;
+  color: #fca311;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 80px;
   text-align: center;
 }
 .headshot {
+  box-shadow: 8px 12px 16px 11px black;
   height: 500px; /*targets the height of the image*/
   display: block;
   margin-left: auto;
@@ -13,11 +14,7 @@
   border-radius: 50px; /*Curves the edges to a radius set by the number before the px for pixel*/
 }
 html {
-  background-color: rgb(
-    124,
-    123,
-    128
-  ); /*Targets the background color for the whole page*/
+  background-color: #e5e5e5; /*Targets the background color for the whole page*/
 }
 .head3 {
   font-family: "Times New Roman", Times, serif;
